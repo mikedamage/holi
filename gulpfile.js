@@ -20,3 +20,7 @@ gulp.task('babel', function() {
     .pipe($.sourcemaps.write('.'))
     .pipe(gulp.dest('./build'));
 });
+
+gulp.task('default', function(cb) {
+  runSequence('babel', cb);
+});
