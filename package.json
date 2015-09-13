@@ -1,0 +1,19 @@
+{
+  "name": "holi",
+  "description": "A color manipulation library",
+  "author": "Mike Green <mike.is.green@gmail.com>",
+  "private": true,
+  "repo": {
+    "type": "git",
+    "url": "https://github.com/mikedamage/holi.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "run-sequence": "^1.1.2"
+  }
+}
